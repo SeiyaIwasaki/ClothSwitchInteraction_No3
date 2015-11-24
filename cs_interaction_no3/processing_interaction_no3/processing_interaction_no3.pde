@@ -29,7 +29,7 @@ void setup(){
 
     /*--- 操作検出クラス初期化 & リスナー登録 ---*/
     for(int i = 0; i < position_qty; i++){
-        opeDet[i] = new OperationDetect(100, 20, fps);
+        opeDet[i] = new OperationDetect(100, 30, fps);
     }
     setListeners();
 
